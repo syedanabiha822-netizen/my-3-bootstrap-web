@@ -1,0 +1,208 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    .logo-img {
+      width: 100px;
+
+    }
+    .navbar-brand {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #75BF7A !important;
+    }
+    .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      margin: 0 15px;
+    }
+    .btn-help {
+      background-color: #75BF7A;
+      color: white;
+      padding: 10px 30px;
+      font-weight: 600;
+    }
+    .hero-section {
+      padding: 60px 0;
+      position: relative;
+    }
+    .hero-title {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #000;
+    }
+    .hero-text {
+      font-size: 1.2rem;
+      color: #666;
+      max-width: 500px;
+      margin: 30px 0;
+    }
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      height: 55px;        
+      max-height: 60px;       
+      width: 190px;
+      transition: transform 0.3s ease;
+    
+    }
+   
+.download-btn:hover {
+  transform: translateY(-4px);
+}
+
+.imges{
+  width: 553px;
+  height: 520;
+
+
+}
+
+
+
+
+
+
+
+
+    .referral-box {
+      width: 1280;
+      background-color: #75BF7A;
+      color: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .referral-box input {
+      border-radius: 12px;
+      padding: 14px 20px;
+      font-size: 1.1rem;
+    }
+    .referral-box button {
+      background: #000;
+      color: white;
+      border-radius: 12px;
+      padding: 14px 40px;
+      font-weight: 600;
+    }
+
+
+.tere{
+  color: #75BF7A;
+}
+
+
+
+
+
+      .benefits-section {
+            position: relative;
+            padding: 100px 0;
+            overflow: hidden;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 760;
+            color: black;
+            margin-bottom: 70px;
+        }
+        .benefit-card {
+            background: white;
+            border-radius: 20px;
+            padding: 35px 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    
+            transition: all 0.3s ease;
+            height: 304;
+        }
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .benefits{
+          margin-left: 80px;
+        }
+        .number {
+            font-size: 3.8rem;
+            font-weight: 900;
+            color: #28a745;
+            line-height: 1;
+        }
+        .card-title {
+            font-size: 1.65rem;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 12px;
+        }
+        .card-text {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.7;
+        }
+        .benefit-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        /* Phone background */
+        .phone-bg {
+            position: absolute;
+            bottom: -25px;
+            right: 30%;
+            transform: translateX(-50%);
+            width: 400px;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .benefits-row {
+            position: relative;
+            z-index: 2;
+        }
+
+
+        
+        
+        @media (max-width: 992px) {
+            .text-col, .img-col {
+                text-align: center !important;
+            }
+            .benefit-img {
+                margin-top: 20px;
+            }
+            .section-title {
+                font-size: 2.4rem;
+            }
+            .phone-bg {
+                width: 320px;
+                bottom: -40px;
+            }
+        }
+  
+
+
+
+
+    @media (max-width: 992px) {
+      .hero-title { font-size: 3rem; }
+      .car-img { margin-top: 40px; }
+      .station { left: 50%; transform: translateX(-50%); top: 100px; }
+    }
+
+
+
+    /* Mobile pe ek ke neeche ek na aaye, same line mein rahe */
+@media (max-width: 480px) {
+  .download-btn {
+    max-height: 50px;
+  }
+  .gap-3 {
+    gap: 15px !important;
+    justify-content: center;
+  }
+}
