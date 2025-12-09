@@ -206,3 +206,110 @@
     justify-content: center;
   }
 }
+
+/* --------------------------
+  HERO SECTION RESPONSIVE FIX
+---------------------------*/
+.imges img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+  .imges {
+      margin-top: 40px;
+      text-align: center;
+  }
+}
+
+/* --------------------------
+   REFERRAL BOX FIX
+---------------------------*/
+.referral-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px !important;
+}
+
+@media (max-width: 768px) {
+  .referral-box input {
+      font-size: 0.9rem !important;
+      height: 55px !important;
+  }
+  .referral-box button {
+      width: 100% !important;
+      height: 55px !important;
+      margin-top: 10px;
+  }
+}
+
+/* --------------------------
+   HOW TERE WORKS RESPONSIVE
+---------------------------*/
+@media (max-width: 1200px) {
+    .position-absolute {
+        position: static !important;
+        transform: none !important;
+        margin-top: 40px !important;
+        text-align: center !important;
+    }
+
+    .position-relative.d-inline-block {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .position-relative.d-inline-block img {
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+  .position-relative img[alt="Big Circle"] {
+      width: 260px !important;
+  }
+}
+
+/* --------------------------
+   BENEFITS CARDS RESPONSIVE
+---------------------------*/
+.benefit-card {
+    height: auto !important;
+}
+
+@media (max-width: 992px) {
+  .benefits {
+      margin-left: 0 !important;
+  }
+
+  .benefit-img {
+      width: 70%;
+      margin: 0 auto;
+  }
+}
+
+/* --------------------------
+   PHONE BG FIX
+---------------------------*/
+.phone-bg {
+ display: n;
+}
+
+@media (max-width: 768px) {
+    .phone-bg {
+        display: none;
+    }
+}
+
+/* --------------------------
+   FOOTER RESPONSIVE FIX
+---------------------------*/
+@media (max-width: 768px) {
+  footer img {
+      margin-bottom: 15px;
+  }
+  footer .col-md-3 {
+      text-align: center !important;
+  }
+}
